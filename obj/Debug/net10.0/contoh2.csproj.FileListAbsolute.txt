@@ -1,0 +1,15 @@
+/home/ikhwan/BelajarCsharp/contoh2/bin/Debug/net10.0/contoh2
+/home/ikhwan/BelajarCsharp/contoh2/bin/Debug/net10.0/contoh2.deps.json
+/home/ikhwan/BelajarCsharp/contoh2/bin/Debug/net10.0/contoh2.runtimeconfig.json
+/home/ikhwan/BelajarCsharp/contoh2/bin/Debug/net10.0/contoh2.dll
+/home/ikhwan/BelajarCsharp/contoh2/bin/Debug/net10.0/contoh2.pdb
+/home/ikhwan/BelajarCsharp/contoh2/obj/Debug/net10.0/contoh2.GeneratedMSBuildEditorConfig.editorconfig
+/home/ikhwan/BelajarCsharp/contoh2/obj/Debug/net10.0/contoh2.AssemblyInfoInputs.cache
+/home/ikhwan/BelajarCsharp/contoh2/obj/Debug/net10.0/contoh2.AssemblyInfo.cs
+/home/ikhwan/BelajarCsharp/contoh2/obj/Debug/net10.0/contoh2.csproj.CoreCompileInputs.cache
+/home/ikhwan/BelajarCsharp/contoh2/obj/Debug/net10.0/contoh2.dll
+/home/ikhwan/BelajarCsharp/contoh2/obj/Debug/net10.0/refint/contoh2.dll
+/home/ikhwan/BelajarCsharp/contoh2/obj/Debug/net10.0/contoh2.pdb
+/home/ikhwan/BelajarCsharp/contoh2/obj/Debug/net10.0/contoh2.genruntimeconfig.cache
+/home/ikhwan/BelajarCsharp/contoh2/obj/Debug/net10.0/ref/contoh2.dll
+/home/ikhwan/BelajarCsharp/contoh2/obj/Debug/net10.0/contoh2.sourcelink.json
