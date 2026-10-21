@@ -1,25 +1,21 @@
-﻿//game
-//karakter : nama, kesehatan, 
-//setter yaitu utk mengisi atrbut
-//this utk menunjuk var di dalem class
-
+﻿
 using System;
 using System.Collections.Generic;
 namespace KerangkaGame
 {
     class Karakter
     {
-        // public string kesehatan, senjata;
+
         public int total, power;
 
         //Encapsulation
         public string nama{ get; private set; }
         public int kesehatan{ get; private set; }
         public int senjata{ get; private set; }
-        public int healing{ get; private set; } // Menambahkan property healing dengan encapsulation
+        public int healing{ get; private set; }
         
 
-        // Constructor disesuaikan menerima 4 parameter agar cocok dengan player1
+ 
         public Karakter(string nama, int kesehatan, int senjata, int healing = 0)
         {
             this.nama = nama;
@@ -40,7 +36,7 @@ namespace KerangkaGame
             Console.WriteLine($"{nama} menerima serangan sebesar {JumlahSerangan}. Kesehatan sekarang: {kesehatan}");
         }
 
-        public void PakaiHealing() // Method baru untuk memicu aksi penyembuhan diri sendiri memakai nilai 'healing' objek tersebut
+        public void PakaiHealing() 
         {
             Console.WriteLine("===== Mulai Penyembuhan =====");
             this.ProsesHealing(this.healing);
@@ -59,7 +55,7 @@ namespace KerangkaGame
         }
     
      
-    } // Penutup class Karakter
+    }
 
     class MainProgram
     {
@@ -69,8 +65,8 @@ namespace KerangkaGame
             Karakter Musuh = new Karakter("Etherial", 100, 30);
 
             //Interaksi antar objek
-            player1.Serang(Musuh); //Objek player1 menyerang objek Musuh
-            Musuh.Serang(player1); //Objek Musuh menyerang objek player1
+            player1.Serang(Musuh); 
+            Musuh.Serang(player1);
             
             player1.PakaiHealing(); 
 
@@ -79,4 +75,4 @@ namespace KerangkaGame
 
         }
     }
-} // Penutup namespace KerangkaGame dipindahkan ke paling bawah
+} 
